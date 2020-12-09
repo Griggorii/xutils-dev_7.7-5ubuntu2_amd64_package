@@ -11,3 +11,5 @@ $ sudo ln -s /usr/lib/x86_64-linux-gnu/libcairo.so.2 /usr/lib/x86_64-linux-gnu/l
 $ cd /tmp/libdrm-2.4.102/build
 
 $ sudo rm /usr/lib/x86_64-linux-gnu/libpciaccess.so && sudo ln -s /usr/lib/x86_64-linux-gnu/libpciaccess.so.0 /usr/lib/x86_64-linux-gnu/libpciaccess.so && ninja install
+
+Special OS: https://github.com/Griggorii/Linux_OS20.04_V4_X64_By_Griggorii.iso_ubuntu_focal_fossa-linux-image-kernel-5.9.3
