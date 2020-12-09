@@ -7,7 +7,7 @@ Run terminal locations all dev deb
 
 $ sudo dpkg -i *.deb && apt install -f
 
-libdrm-2.4.102.zip libpciaccess-0.16_griggorii_source.tar.xz inpack /tmp
+libdrm-2.4.102.tar.xz libpciaccess-0.16_griggorii_source.tar.xz inpack /tmp
 
 cd /tmp/libpciaccess-0.16_griggorii_source/
 
