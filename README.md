@@ -1,5 +1,5 @@
 # xutils-dev_7.7-5ubuntu2_amd64_package
-xutils-dev , xserver , xorg , development , ubuntu 20.04
+xutils-dev , xserver , xorg , development , ubuntu 20.04 , video driver new
 
 $ sudo apt update
 
@@ -18,3 +18,21 @@ cd /tmp/libpciaccess-0.16_griggorii_source/
 $ sudo make install
 
 Special OS: https://github.com/Griggorii/Linux_OS20.04_V4_X64_By_Griggorii.iso_ubuntu_focal_fossa-linux-image-kernel-5.9.3
+
+Test drm amd , intel , kms , modetest
+
+$ amdgpu_test
+
+$ drmdevice
+
+$ kms-steal-crtc
+
+$ kms-universal-planes
+
+$ modeprint
+
+$ modetest
+
+$ proptest
+
+$ vbltest
