@@ -1,6 +1,11 @@
 # xutils-dev_7.7-5ubuntu2_amd64_package
 xutils-dev , xserver , xorg , development , ubuntu 20.04
 
+$ sudo apt update
+
+Run terminal locations all dev deb
+
+$ sudo dpkg -i *.deb
 
 libdrm-2.4.102.zip libpciaccess-0.16_griggorii_source.tar.xz inpack /tmp
 
